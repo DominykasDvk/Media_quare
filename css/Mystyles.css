@@ -1,0 +1,29 @@
+.div_box {
+	box-sizing: border-box;
+  padding: 5px;
+  width: calc((100% / 4) - 4px);
+	display: inline-block;
+  text-align: justify;
+}
+.hedlings{
+  color: #99004d;
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 1024px) {
+.div_box  {background-color: #9999ff;
+          width: calc((100% / 3) - 14px);
+	}
+}
+
+@media only screen and (max-width: 780px) {
+.div_box {background-color: #ff9900;
+          max-width: calc((100% / 2) - 14px);
+	}
+}
+
+@media only screen and (max-width: 480px) {
+.div_box  {background-color: #ffff00;
+            max-width: 100%;
+	}
+}
